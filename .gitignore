@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Daily posts media (large files - not tracked in git)
+dailyposts/
+
+# WhatsApp session data (sensitive - do not commit)
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+*.log
+bot_error.log
+bot_output.log
+
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+.env.local
